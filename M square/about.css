@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding:0.3rem 0.8rem;
+    font-size:1.5rem;
+    background-color: aliceblue;
+    width:100%;
+
+}
+#logo{
+    height:5rem;
+    width:10%;
+    font-size: 30px;
+    font-weight: 550;
+    margin-left: 2rem;
+    padding-top:24px;
+    color:rgb(93, 93, 237);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav{
+    width:100%;
+    margin-left:15rem;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.title{
+    font-size: 4rem;
+    font-weight: 550;
+    color:rgb(93, 93, 237);
+    display: flex;
+    justify-content: center;
+
+    margin:1rem;
+}
+.cont {
+    font-size: 2rem;
+    font-weight: 430;
+    color: black;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    padding-left:5.5rem;
+    padding-right:5.5rem;
+   
+}
+.img {
+    display: flex;
+    justify-content: space-evenly; /* Equal horizontal spacing */
+    align-items: center; /* Center vertically */
+
+  }
+  
+  .img img {
+    max-width: 100%; /* Ensure the images don't exceed their container width */
+    height: auto; /* Maintain the aspect ratio */
+
+    height:18rem;
+    width:20rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact{
+    height:15rem;
+    width:100%;
+    background-color: rgb(76, 75, 75);
+    color:white;
+    font-size: 1.8rem;
+    padding-top:1.2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+

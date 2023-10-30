@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FemHub</title>
+    <link rel="stylesheet" href="create_account.css">
+    <link rel="icon" href="logo2.jpeg">
+</head>
+<body>
+    <header>
+        <i id="logo">FemHub</i>
+        <nav>
+            <a href="index.html"><i>Home</i></a>
+            <a href="about.html"><i>About Us</i></a>
+            <a href="job.html"><i>Find Job</i></a>
+            <a href="signin.html"><u><i>Sign In</i></u></a>
+        </nav>
+    </header>
+    <div class="outer-container">
+        <div class="inner-container">
+            <form action="/" class="container" method="post">
+                <div class="top">
+                    <h1>Create Account</h1>
+                </div>
+
+                <div class="hi">
+                    <div class="labels">
+                        <i><label for="">Name*</label></i>
+                        <i><label for="">Password*</label></i>
+                        <i><label for="">User Type*</label></i>
+                        <i><label for="">Mobile Number*</label></i>
+                        <i><label for="">E-Mail*</label></i>
+                        <i><label for="">Address</label></i>
+                        <i><label for="">City*</label></i>
+                        <i><label for="">State*</label></i>
+                    </div>
+
+                    <div class="inputs">
+                        <input type="text" name="name">
+                        <input type="text" name="password">
+                        <div class="user-type">
+                            <input type="radio" name="userType" value="0"><p><i>Recruiter</i></p>
+                            <input type="radio" name="userType" value="1"><p><i>Employer</i></p>
+                        </div>
+                        <input type="text" name="mobile">
+                        <input type="text" name="email">
+                        <textarea type="text" id="address" name="address"></textarea>
+                        <input type="text" name="city">
+                        <input type="text" name="state">
+                    </div>
+                </div>
+                <br>
+                <button id="back" onclick="window.location.href='Index.html'"><i>Back</i></button>
+                <button id="register" type="submit">Create</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

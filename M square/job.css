@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding:0.3rem 0.8rem;
+    font-size:1.5rem;
+    background-color: aliceblue;
+    width:100%;
+
+}
+#logo{
+    height:5rem;
+    width:10%;
+    font-size: 30px;
+    font-weight: 550;
+    margin-left: 2rem;
+    padding-top:24px;
+    color:rgb(93, 93, 237);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav{
+    width:100%;
+    margin-left:15rem;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.tag{
+    font-size:3rem;
+    font-weight: bold;
+    color: rgb(19, 19, 237);
+   margin:0rem;
+    justify-content: center;
+    height:70px;
+    width:100%;
+    background-color: rgb(198, 198, 253);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.contact{
+    height:15rem;
+    width:100%;
+    background-color: rgb(76, 75, 75);
+    color:white;
+    font-size: 1.8rem;
+    padding-top:1.2rem;
+    display: flex;
+    justify-content: center;
+  }
