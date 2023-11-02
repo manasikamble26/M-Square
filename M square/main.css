@@ -164,8 +164,20 @@ a{
     width:100%;
     background-color: rgb(76, 75, 75);
     color:white;
-    font-size: 2rem;
+   
     padding-top:1.2rem;
-    display: flex;
+    
     justify-content: center;
+  }
+  .c1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .c2{
+    margin-left:5rem;
+    margin-top: 3rem;
+  }
+  .c3{
+    margin-left:5rem;
+    margin-top: 0.5rem;
   }
